@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 app.get("/review/seed", (req, res) => {
   // array of starter reviews
   const startReviews = [
-    { movieName: "Pan's Labyrinth", movieImage: "https://upload.wikimedia.org/wikipedia/en/6/67/Pan%27s_Labyrinth.jpg", movieReview: "Magical", movieRating: 5 },
+    { movieName: "Pan's Labyrinth", movieImage: "https://upload.wikimedia.org/wikipedia/en/6/67/Pan%27s_Labyrinth.jpg", movieReview: "Magical and terrifying all at the same time.", movieRating: 5 },
     { movieName: "Blade Runner", movieImage: "https://miro.medium.com/max/1400/1*4KkBJLj0-_nGCblVAzlA2A.jpeg", movieReview: "One of my favorites.", movieRating: 5 },
     { movieName: "The Humans", movieImage: "https://www.sho.com/site/image-bin/images/0_0_3493874/0_0_3493874_00h_1280x640.jpg", movieReview: "Utterly Boring, turned it off after 20 minutes.", movieRating: 1 }
 
